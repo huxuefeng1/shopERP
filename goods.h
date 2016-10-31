@@ -7,7 +7,6 @@
 #include <string>
 #include <vector>
 #include <list>
-//#include "login.h"
 using namespace std;
 bool get_YesNo();
 class Goods {
