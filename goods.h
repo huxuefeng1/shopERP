@@ -22,7 +22,7 @@ class Goods {
 		  ,stockVolume(stockV), salesVolume(salesV), enable(enabled){}
 
 	public:
-bool operator<(const Goods & right) const;
+bool operator<(Goods & right);
 static bool compName(const Goods & left, const Goods & right);
 static bool compSalesPrice(const Goods & left, const Goods & right);
 static bool compSalesVolume(const Goods & left, const Goods & right);
