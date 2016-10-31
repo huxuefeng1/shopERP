@@ -8,7 +8,7 @@ void Goods::printGoods(bool noPrintStockVolume)
 	if( !noPrintStockVolume )
 	cout << "\t" << stockVolume;
 }
-bool Goods::operator<(Goods & right)
+bool Goods::operator<(const Goods & right) const
 {
 	return goodsId < right.goodsId;
 }
