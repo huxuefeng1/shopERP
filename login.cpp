@@ -19,8 +19,8 @@ User::User():next_key(0)  {
 		}
 		if(DEBUG)
 			cout << "fread " << line <<" line" << endl;
-	}
 	fclose(fp);
+	}
 
 	if(0 == next_key)
 	{
